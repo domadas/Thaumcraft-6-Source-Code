@@ -208,6 +208,7 @@ public class Aspect {
 		public static Aspect UNDEAD = new Aspect("exanimis",0x3a4000, new Aspect[] {MOTION, DEATH});
 		public static Aspect BEAST = new Aspect("bestia",0x9f6409, new Aspect[] {MOTION, LIFE});
 		public static Aspect MAN = new Aspect("humanus",0xffd7c0, new Aspect[] {SOUL, LIFE});
-		
-		
+	    public static Aspect CROPUS = new Aspect("cropus",0xa4ffff, new Aspect[] {MAGIC, PLANT});
+
+
 }
